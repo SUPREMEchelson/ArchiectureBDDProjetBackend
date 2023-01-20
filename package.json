@@ -1,0 +1,27 @@
+{
+  "name": "archiecturebddprojetbackend",
+  "version": "1.0.0",
+  "description": "\"# ArchitectureBDDProjetBackend\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SUPREMEchelson/ArchiectureBDDProjetBackend.git"
+  },
+  "keywords": [],
+  "author": "chelson supreme",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongodb": "^4.8.0",
+    "mongoose": "^6.5.0",
+    "validator": "^13.7.0"
+  },
+  "bugs": {
+    "url": "https://github.com/SUPREMEchelson/ArchiectureBDDProjetBackend/issues"
+  },
+  "homepage": "https://github.com/SUPREMEchelson/ArchiectureBDDProjetBackend#readme"
+}

@@ -1,19 +1,20 @@
 // CRUD CREATE READ UPDATE DELETE
 require('dotenv').config();
+const mongoose = require('mongoose');
 const {connectDb } = require('./src/services/mongoose');
-const User = require('./src/models/user');
+const userRoutes = require('./src/routes/user');
+
 const express =require('express'); 
 const app = express();
 const port = process.env.PORT || 3000;
+mongoose.set('strictQuery', false);
 
 connectDb().catch(err=>console.log(err));
 
 app.use(express.json());
+app.use(userRoutes);
 
-app.post('/todos',(req,res,next)=>{
-    console.log(req.body);
-    res.send('Salut!');
-});
+
 
 
 app.listen(port, () => {

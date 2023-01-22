@@ -5,7 +5,7 @@ const validator = require('validator');
 const User = mongoose.model('User', {
     email: {
        type: String,
-       required: true,
+      required: true,
        validate(v){
            if(!validator.isEmail(v)) throw new Error('E-mail non valide!');
        }

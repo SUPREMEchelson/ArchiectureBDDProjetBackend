@@ -7,7 +7,7 @@ router.get('/foo',(req,res)=>{
 });
 
 router.post('/todos', async (req,res,next)=>{
-    const user =  new User(req.body);
+    // const user =  new User(req.body);
 
     try{    
     const saveUser = await user.save();

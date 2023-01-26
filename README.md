@@ -28,7 +28,7 @@ MongoDB
 NOS DONNEES
 ##########
 
-1 - Un CSV contenant 513 lignes et 7 colonnes. Le nom des colonnes sont "Id", "Joueur", "Nation", "Pos", "Equipe", "Âge" et "Salaires annuels".
+1 - Un CSV contenant 513 lignes et 8colonnes. Le nom des colonnes sont "Id", "Joueur", "Nation", "Pos", "Equipe", "Âge" , "salaires hebdomadaires " et "Salaires annuels".
 2 - L'API Football data.org qui permet de récupérer en live les stats, joueurs , matches et des infos sur des différents compétions de foot.
 ce sont des données privées et c'est pour cela on créé un compte pour obtenir le token pour avoir accès à ces données.
 

@@ -34,6 +34,11 @@ ce sont des données privées et c'est pour cela on créé un compte pour obteni
 
 ##########
 COMMENT FAIRE FONCTIONNER NOTRE PROJET
+
+Pour lancer le projet il faut cloner notre repertoire github avec la commande git clone
+ensuite il faut installer node js et express
+
+pour lancer l'application il faut lancer le app.js 
 ##########
 *Creation de base mongodb 
 

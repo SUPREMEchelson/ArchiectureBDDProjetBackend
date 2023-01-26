@@ -29,11 +29,28 @@ NOS DONNEES
 ##########
 
 1 - Un CSV contenant 513 lignes et 7 colonnes. Le nom des colonnes sont "Id", "Joueur", "Nation", "Pos", "Equipe", "Âge" et "Salaires annuels".
-2 - 
+2 - L'API Football data.org qui permet de récupérer en live les stats, joueurs , matches et des infos sur des différents compétions de foot.
+ce sont des données privées et c'est pour cela on créé un compte pour obtenir le token pour avoir accès à ces données.
 
 ##########
 COMMENT FAIRE FONCTIONNER NOTRE PROJET
 ##########
+*Creation de base mongodb 
+
+pour inserer les données dans notre base de données, il fallait importer les librairies pymongo, json, csv ,http et requests sur python.
+ensuite on a créé une base de données et un Cluster qu'on a nommé "myTask" et "buteur".
+
+*Insertion données :
+pour insérer les données avec l'API on a rajouté le body et les headers contenant le token et la requête pour etablir la connexion
+nous avons aussi rajouter un filtre pour récuperer que les données des meilleurs buteurs de la premiere league en 2022.
+ensuit on a inséré notre fichier csv 
+
+
+
+
+
+
+
 
 XXX
 
